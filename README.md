@@ -3,16 +3,17 @@ A simple framework to do map-reduce work
 
 component:
 
-  Master: responsible for spliting job to small partitions
-
+  Master: 
+          responsible for spliting job to small partitions
+          
           dispatch each task to registed workers
-
+          
           and redispatch task for failed workers
-
+          
           finally, merge all the result into one file
           
-  Worker: know how to do Map and how to do Reduce
-
+  Worker: 
+          know how to do Map and how to do Reduce
           communicate with master via RPC in both way
   
   
