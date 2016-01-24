@@ -14,6 +14,7 @@ component:
           
   Worker: 
           know how to do Map and how to do Reduce
+          
           communicate with master via RPC in both way
   
   
